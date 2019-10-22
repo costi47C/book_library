@@ -1,0 +1,137 @@
+body {
+    text-align: center;
+    background: 
+        radial-gradient(black 3px, transparent 4px),
+        radial-gradient(black 3px, transparent 4px),
+        linear-gradient(#fff 4px, transparent 0),
+        linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+        linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+        #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+#content {
+    width: 80%;
+    margin: auto auto;
+}
+
+h1 {
+    color: rgb(63, 121, 107);
+    margin: auto auto;
+    border-bottom: solid rgb(63, 121, 107);
+}
+
+table {
+    width: 75%;
+    margin: 50px auto;
+    border: solid black 1px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 5%, 
+                                        rgba(255,255,255,0.5284314409357493) 60%, 
+                                        rgba(98,98,98,0.8057423653054971) 100%);
+}
+
+th {
+    border: solid black 1px;
+    font-size: 1.4em;
+}
+
+td {
+    border-bottom: solid black 2px;
+    font-size: 18px;
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    font-size: 25px;
+    border-radius: 10px;
+    background-color:  #43D1AF;
+}
+
+#read-th {
+    width: 110px;
+}
+
+#read {
+    background-color: rgb(175, 224, 175);
+    margin: auto auto;
+    padding: 10px 10px;
+    border-radius: 100px;
+}
+
+#not-read {
+    background-color: rgb(214, 167, 167);
+    margin: auto auto;
+    padding: 10px 10px;
+    border-radius: 100px;
+}
+
+#delete {
+    background-color: rgb(148, 153, 140);
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#my-form {
+    font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
+}
+
+#my-form h1 {
+	background: rgb(63, 121, 107);
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+
+#my-form input[type=text], input[type=number] {
+    -webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+
+#my-form input[type=text]:focus, input[type=number]:focus {
+    box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+
+#my-form input[type=submit] {
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: rgb(63, 121, 107);
+	border-bottom: 2px solid rgb(0, 0, 0);
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+
+#my-form input[type=submit]:hover {
+    background: rgb(46, 145, 118);
+}

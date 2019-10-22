@@ -5,27 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Book library</title>
 </head>
 
 <body>
 
-    <h1>My books</h1>
+    <div id="content">
+        <h1>Your books</h1>
 
-    <script>
-    
-    let myBooks = [];
-    let book1 = {
-        name: "HP",
-        pages: 21
-    }
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Pages</th>
+                <th id="read-th">Read</th>
+                <th> </th>
+            </tr>
+        </table>
 
-    myBooks.push(book1);
+        <button id="show-form">Add a book</button>
 
-    console.log(myBooks);
+        <div id="my-form" style="display: none;">
+            <form id="add-form">
+                <h1>Add a book</h1><br>
+                <input type="text" id="book-title" placeholder="Book title" required>
+                <input type="text" id="book-author" placeholder="Book author" required>
+                <input id="book-pages" placeholder="Nr. of pages" type="number" required>
+                <label>Read?<input type="checkbox" id="book-read"></label>
+                <input type="submit" value="Add book!">
+            </form>
+        </div>
 
-    </script>
+    </div>
 
+    <script src="index.js"></script>
 </body>
 
 </html>
